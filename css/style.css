@@ -4,22 +4,21 @@ body {
    background-image: linear-gradient(#F67280, #6C5B7B);
 }
 
-
-
-h1 {
-   font-size: 2rem;
-}
 .container {
    text-align: center;
 }
 
-[class*="col-"] {
-   padding: 10px;
+h1 {
+   font-size: 2rem;
 }
 
 img {
    height: 15vw;
    max-height: 200px;
+}
+
+h1, h2, hr {
+   padding: 5px 0;
 }
 
 .circle-img {
@@ -28,8 +27,9 @@ img {
   padding: 10px;
 }
 
-[class*="col-md"] hr {
-   display: none;
+
+[class*="col-"] {
+   padding: 10px;
 }
 
 #lezioni {
@@ -42,4 +42,10 @@ img {
 
 #why {
    background: #45ADA8;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+   hr {
+      display: none;
+   }
 }
