@@ -1,8 +1,45 @@
+body {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   background-image: linear-gradient(#F67280, #6C5B7B);
+}
+
+
+
+h1 {
+   font-size: 2rem;
+}
 .container {
-   background-color: pink;
+   text-align: center;
 }
 
 [class*="col-"] {
-   background-color: orange;
-   border: 1px solid black;
+   padding: 10px;
+}
+
+img {
+   height: 15vw;
+   max-height: 200px;
+}
+
+.circle-img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+[class*="col-md"] hr {
+   display: none;
+}
+
+#lezioni {
+   background: #E5FCC2;
+}
+
+#steps {
+   background: #9DE0AD;
+}
+
+#why {
+   background: #45ADA8;
 }
